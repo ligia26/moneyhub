@@ -89,6 +89,16 @@ Admin - localhost:8083
 Investments - localhost:8081
 - `/investments/export` - Expects a CSV formatted text input as the body
 
+### Tests
+Install dependencies:
+npm install --save-dev jest supertest
+Test Scripts:
+Add this to your package.json:
+"scripts": {
+  "test": "jest"
+}
+Run tests with npm test under admin folder.
+
 ## Questions
 1.How would you make this service more secure?
 To enhance the security of this service, I would:
