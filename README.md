@@ -79,3 +79,14 @@ Financial Companies - localhost:8082
 
 Admin - localhost:8083
 - `/investments/:id` get an investment record by id
+
+## New Routes
+
+### Get CSV file structured as "User","First Name","Last Name","Date","Holdings","Values"
+Admin - localhost:8083
+- `/generate-csv` generates a CSV report of all user investment holdings and exports it to the investments service.
+
+Investments - localhost:8081
+- `/investments/export` - Expects a CSV formatted text input as the body
+
+
