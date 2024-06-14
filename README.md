@@ -92,8 +92,11 @@ Investments - localhost:8081
 ### Tests
 Install dependencies:
 npm install --save-dev jest supertest
+
+
 Test Scripts:
 Add this to your package.json:
+
 "scripts": {
   "test": "jest"
 }
