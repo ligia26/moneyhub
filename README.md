@@ -89,8 +89,6 @@ Admin - localhost:8083
 Investments - localhost:8081
 - `/investments/export` - Expects a CSV formatted text input as the body
 
-
-Certainly! Here's a more human-friendly version of the answers to the provided questions:
 ## Questions
 1.How would you make this service more secure?
 To enhance the security of this service, I would:
