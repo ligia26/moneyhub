@@ -90,3 +90,29 @@ Investments - localhost:8081
 - `/investments/export` - Expects a CSV formatted text input as the body
 
 
+Certainly! Here's a more human-friendly version of the answers to the provided questions:
+## Questions
+1.How would you make this service more secure?
+To enhance the security of this service, I would:
+
+- Implement Authentication and Authorization: Ensure that only authenticated users can access the service, and implement role-based access control to limit actions based on user roles.
+- Validate Inputs: Add input validation to prevent SQL injection, cross-site scripting (XSS), and other common attacks.
+- Use HTTPS: Encrypt data in transit by using HTTPS, ensuring that all communications between clients and the server are secure.
+- Rate Limiting: Implement rate limiting to protect against denial-of-service (DoS) attacks by limiting the number of requests a user can make in a given time period.
+
+2.How would you make this solution scale to millions of records?
+To scale this solution to handle millions of records, I would:
+
+- Database Optimization: Use indexing, partitioning, and optimized queries to handle large datasets efficiently.
+- Microservices Architecture: Break down the application into microservices, allowing each service to scale independently based on its specific needs.
+- Load Balancing: Distribute incoming requests across multiple server instances using load balancers to prevent any single server from being overwhelmed.
+- Asynchronous Processing: Use message queues and background workers to handle long-running tasks asynchronously, ensuring that the system remains responsive.
+3.What else would you have liked to improve given more time?
+Given more time, I would have liked to:
+
+- Enhance Testing: Add more comprehensive unit and integration tests to ensure all parts of the system are thoroughly tested.
+- Optimize Performance: Conduct performance profiling and optimization to improve the system's responsiveness and efficiency.
+- Implement CI/CD: Set up a continuous integration and continuous deployment (CI/CD) pipeline to automate testing and deployment, ensuring that changes are quickly and safely delivered to production.
+
+
+
