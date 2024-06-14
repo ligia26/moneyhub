@@ -107,6 +107,7 @@ To scale this solution to handle millions of records, I would:
 - Microservices Architecture: Break down the application into microservices, allowing each service to scale independently based on its specific needs.
 - Load Balancing: Distribute incoming requests across multiple server instances using load balancers to prevent any single server from being overwhelmed.
 - Asynchronous Processing: Use message queues and background workers to handle long-running tasks asynchronously, ensuring that the system remains responsive.
+  
 3.What else would you have liked to improve given more time?
 Given more time, I would have liked to:
 
